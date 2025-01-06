@@ -40,7 +40,7 @@ const Header = () => {
       <div className="pContainer">
         <div className="flex justify-between items-center ">
           <Logo />
-          <div className="flex items-center gap-x-6">
+          <div className="flex items-center gap-x-3">
             {/* Nav */}
             <Nav
               containerStyle="hidden xl:flex gap-x-8 items-center"
