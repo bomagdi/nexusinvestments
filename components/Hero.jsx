@@ -60,7 +60,7 @@ const Hero = () => {
                   <Link href="/properties">Browse Properties</Link>
                 </Button>
                 <Button className="bg-transparent border border-white px-4 py-2 rounded-lg font-semibold hover:bg-white hover:text-black">
-                  Contact Us
+                <Link href="/contact">Contact Us</Link>
                 </Button>
               </div>
             </div>
