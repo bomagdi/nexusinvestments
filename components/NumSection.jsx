@@ -7,7 +7,7 @@ import { FaBuildingCircleCheck } from "react-icons/fa6";
 const NumSection = () => {
   return (
     <section className="pContainer mt-24">
-      <div className="flex items-center justify-center gap-60">
+      <div className="grid grid-cols-1 md:grid-cols-3  gap-x-60 gap-y-16">
         {/* Badge 1 */}
         <Badge
           containerStyles=""
