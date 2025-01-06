@@ -80,3 +80,36 @@ body {
     @apply container mx-auto px-4;
   }
 }
+
+
+@layer {
+  .swiper-button-next, .swiper-button-prev {
+    @apply !text-primary pContainer
+  }
+}
+
+
+.custom-prev, .custom-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  user-select: none;
+}
+
+.custom-prev {
+  left: 10px;
+}
+
+.custom-next {
+  right: 10px;
+}
+
+.custom-prev:hover, .custom-next:hover {
+  background-color: #555;
+}
