@@ -7,7 +7,7 @@ const Badge = ({ icon, endCountNum, endCountText, badgeText }) => {
   return <div className={`badge flex flex-col justify-center items-center gap-y-5`}>
     <div className="text-6xl text-primary">{icon}</div>
     <div className="flex flex-col items-center gap-y-2">
-      <div className="text-5xl leading-none font-bold text-black">
+      <div className="text-5xl leading-none font-bold ">
         <CountUp end={endCountNum} delay={1} duration={3} />
         {endCountText}
       </div>
