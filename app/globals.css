@@ -1,10 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-* {
-  font-family: "Montserrat", serif;
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
 @layer base {
@@ -86,29 +87,3 @@
   }
 }
 
-.custom-prev,
-.custom-next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 10;
-  background-color: #000;
-  color: #fff;
-  padding: 10px;
-  border-radius: 50%;
-  cursor: pointer;
-  user-select: none;
-}
-
-.custom-prev {
-  left: 10px;
-}
-
-.custom-next {
-  right: 10px;
-}
-
-.custom-prev:hover,
-.custom-next:hover {
-  background-color: #555;
-}
